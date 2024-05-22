@@ -1,16 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useContext, useState } from 'react'
 import './App.css'
-import ResourceMain from './components/ResourceMain';
+import Layout from './contexts/Layout.jsx';
+
 
 function App() {
-
   return (
-    <>
-     <ResourceMain/>
-    </>
-  )
+    <Layout>
+    </Layout>
+    
+  );
 }
 
 export default App;
